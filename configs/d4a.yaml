@@ -1,0 +1,12 @@
+common:
+  n_hid: 128
+  dropout: 0.5
+  alpha: 1
+  lam_dsc: 1
+  K_cmd: 5
+
+citeseer:
+  dropout: 0.9
+
+pubmed:
+  input_norm: ln
